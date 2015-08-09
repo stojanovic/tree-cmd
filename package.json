@@ -1,14 +1,14 @@
 {
   "name": "tree-cmd",
-  "version": "1.0.0",
   "description": "tree-cmd - list contents of directories in a tree-like format.",
   "main": "tree.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stojanovic/tree-cmd.git"
+    "url": "https://github.com/stojanovic/tree-cmd.git"
   },
   "keywords": [
     "tree",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/stojanovic/tree-cmd/issues"
   },
-  "homepage": "https://github.com/stojanovic/tree-cmd#readme"
+  "homepage": "https://github.com/stojanovic/tree-cmd#readme",
+  "devDependencies": {
+    "semantic-release": "^4.0.2"
+  }
 }
